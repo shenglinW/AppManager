@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_manager">应用管理</string>
+    <string name="working">工作中...</string>
+    <string name="reading_apps">正在读取安装的程序</string>    
+</resources>

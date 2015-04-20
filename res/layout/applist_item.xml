@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="2dip"
+    android:paddingLeft="4dip"
+    android:paddingRight="4dip"
+    android:paddingTop="2dip" >
+
+    <ImageView
+        android:id="@+id/itemicon"
+        android:layout_width="48dip"
+        android:layout_height="48dip" >
+    </ImageView>
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:id="@+id/itemtext"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:paddingLeft="5dip"
+        android:text="@string/empty" />
+
+    <CheckBox
+        android:id="@+id/itemenable"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_manager">App Manager</string>
+    <string name="empty"></string>
+    <string name="working">Working...</string>
+    <string name="reading_apps">Reading installed applications</string>    
+</resources>
